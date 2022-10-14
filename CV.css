@@ -1,0 +1,185 @@
+body{
+  background-color:#181A1B;
+  color:white;
+  margin:0px;
+  display:flex;
+  line-height: 30px;
+  font-family: sans serif;
+}
+
+aside{
+  background-color:#8E1401;
+  height:auto;
+}
+
+p, h3, h1, span, nav{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+aside h3{
+  background-color:#721001;
+}
+
+body section h1{
+  color:#FE7653;
+}
+
+a{
+  color:white;
+}
+
+.chap{
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:center;
+  font-size:25px;
+}
+#etu{
+  margin-top:0px;
+  padding-bottom:0px;
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+#nom{
+  margin-bottom:0px;
+  font-size:30px;
+}
+
+aside section{
+  line-height: 24px;
+}
+
+li{
+  height:63px;
+}
+
+.long{
+  height:90px;
+}
+
+.slider-b{
+  height:15px;
+  margin-top:0;
+  background-color: #181A1B;
+  position:relative;
+  left:-15px;
+  margin-top:5px;
+  margin-bottom:20px;
+  border-radius:10px 0 0 10px;
+}
+
+.slider-r{
+  height:15px;
+  margin-top:0;
+  background-color: #721001;
+  position:relative;
+  top:-35px;
+  margin-top:5px;
+  margin-bottom:20px;
+  border-radius:0 10px 10px 0;
+}
+
+#full{
+  width:180px;
+  border-radius:10px;
+}
+
+#qv-b{
+  width:140px;
+}
+#qv-r{
+  width:0;
+  right:-165px;
+}
+
+#sx-b{
+  width:110px;
+}
+#sx-r{
+  width:30px;
+  right:-135px;
+}
+
+#cq-b{
+  width:90px;
+}
+#cq-r{
+  width:80px;
+  right:-85px;
+}
+
+div h1{
+  width:auto;
+  border-top:1px grey solid;
+  border-bottom:1px grey solid;
+  font-size:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:0;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+#xp section, #formation section{
+  display:flex;
+}
+
+#xp p, #formation p{
+  margin-top:0;
+  padding-left:0;
+}
+
+.dates{
+  margin-right:0px;
+  text-align:center;
+  line-height:20px;
+  padding-top:6px;
+}
+
+#xp strong, #formation strong{
+  font-size:20px;
+}
+
+#formation .dates{
+  margin-bottom:20px;
+}
+
+nav img{
+  height:25px;
+}
+
+nav a{
+  margin-right:5px;
+}
+
+@media screen and ((max-device-width: 500px) or (max-width: 700px)){
+  body{
+    display:flex;
+    flex-direction:column;
+    width:auto;
+  }
+
+  div h1{
+    width:auto;
+    margin-right:20px;
+  }
+
+  .long{
+    height:65px;
+  }
+
+  #coord{
+    text-align:center;
+  }
+
+  aside ul{
+    width:100%;
+    font-size:20px;
+  }
+
+  .dates{
+    width:30%;
+  }
+}
